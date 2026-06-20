@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "rootDir": "./src",
+    "outDir": "./build/",
+    "noImplicitAny": true,
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "target": "esnext",
+    "jsx": "react-jsx",
+    "allowJs": true,
+    "types": ["node"]
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules"]
+}
