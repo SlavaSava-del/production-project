@@ -8,7 +8,9 @@
     "build:prod": "webpack --env mode=production",
     "build:dev": "webpack --env mode=development",
     "lint": "npx eslint \"**/*.{ts,tsx}\"",
-    "lint:fix": "npx eslint \"**/*.{ts,tsx}\" --fix"
+    "lint:fix": "npx eslint \"**/*.{ts,tsx}\" --fix",
+    "lint:less": "npx stylelint \"**/*.less\"",
+    "lint:less:fix": "npx stylelint \"**/*.less\" --fix"
   },
   "keywords": [],
   "author": "",
@@ -29,6 +31,7 @@
     "babel-plugin-i18next-extract": "^1.1.0",
     "css-loader": "^7.1.4",
     "eslint": "^9.39.4",
+    "eslint-plugin-i18next": "^6.1.4",
     "eslint-plugin-react": "^7.37.5",
     "file-loader": "^6.2.0",
     "globals": "^17.7.0",
@@ -38,6 +41,9 @@
     "mini-css-extract-plugin": "^2.10.2",
     "react-refresh": "^0.18.0",
     "style-loader": "^4.0.0",
+    "stylelint": "^17.13.0",
+    "stylelint-config-standard": "^40.0.0",
+    "stylelint-config-standard-less": "^4.1.0",
     "ts-loader": "^9.6.0",
     "ts-node": "^10.9.2",
     "typescript": "^6.0.3",
