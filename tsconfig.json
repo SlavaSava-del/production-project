@@ -7,6 +7,9 @@
     "moduleResolution": "bundler",
     "target": "esnext",
     "jsx": "react-jsx",
+    "paths": {
+      "@/*": ["./src/*"]
+    },
     "allowJs": true,
     "types": ["node"]
   },

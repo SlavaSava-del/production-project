@@ -1,0 +1,23 @@
+{
+  "React component with CSS Module": {
+    "prefix": "rc",
+    "scope": "typescript,typescriptreact",
+    "body": [
+      "import { classNames } from \"@/shared/lib/classNames/classNames\";",
+      "import cls from \"./$TM_FILENAME_BASE.module.less\";",
+      "",
+      "interface ${TM_FILENAME_BASE}Props {",
+      "  className?: string;",
+      "}",
+      "",
+      "export const $TM_FILENAME_BASE = ({ className }: ${TM_FILENAME_BASE}Props) => {",
+      "  return (",
+      "    <div className={classNames(cls.${1:className}, {}, [className])}>",
+      "      $0",
+      "    </div>",
+      "  );",
+      "};",
+    ],
+    "description": "React component with classNames and CSS module",
+  },
+}

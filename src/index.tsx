@@ -1,6 +1,7 @@
 import { createRoot } from "react-dom/client";
-import App from "./App";
-import ThemeProvider from "./theme/ThemeProvider";
+import { ThemeProvider } from "./app/providers/ThemeProvider";
+import App from "./app/App";
+import "@/shared/config/i18n/i18n";
 
 const domNode = document.getElementById("root") as HTMLElement;
 const root = createRoot(domNode);
